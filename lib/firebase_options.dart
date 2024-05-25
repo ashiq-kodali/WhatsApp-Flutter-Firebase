@@ -47,30 +47,31 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCCB4PTuxqSzwBuWTG_6A3BaV2PtUN6rL0',
-    appId: '1:946822283011:web:b1feb348e607850ebab336',
-    messagingSenderId: '946822283011',
-    projectId: 'whatsapp-clone-dcefa',
-    authDomain: 'whatsapp-clone-dcefa.firebaseapp.com',
-    storageBucket: 'whatsapp-clone-dcefa.appspot.com',
-    measurementId: 'G-QQCBJH1X5C',
+    apiKey: 'AIzaSyAetLlBQcyS5WlAmbg3fvEBRhgDQw11uPI',
+    appId: '1:234567568334:web:fe91138ff613aff7eaf99f',
+    messagingSenderId: '234567568334',
+    projectId: 'nk-app-693ab',
+    authDomain: 'nk-app-693ab.firebaseapp.com',
+    storageBucket: 'nk-app-693ab.appspot.com',
+    measurementId: 'G-8K9KN96T4B',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCvUYVCPjuXoQJQCavxqvBBEOXToAjK0LM',
-    appId: '1:946822283011:android:67c89ba596935399bab336',
-    messagingSenderId: '946822283011',
-    projectId: 'whatsapp-clone-dcefa',
-    storageBucket: 'whatsapp-clone-dcefa.appspot.com',
+    apiKey: 'AIzaSyDtjHjSUg2pDwHYGnzuQ1jQsIAAi1ZAI0Y',
+    appId: '1:234567568334:android:c65c673f29c6e7a3eaf99f',
+    messagingSenderId: '234567568334',
+    projectId: 'nk-app-693ab',
+    storageBucket: 'nk-app-693ab.appspot.com',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCCB4PTuxqSzwBuWTG_6A3BaV2PtUN6rL0',
-    appId: '1:946822283011:web:44a19e12445a8470bab336',
-    messagingSenderId: '946822283011',
-    projectId: 'whatsapp-clone-dcefa',
-    authDomain: 'whatsapp-clone-dcefa.firebaseapp.com',
-    storageBucket: 'whatsapp-clone-dcefa.appspot.com',
-    measurementId: 'G-50CQBMXVG5',
+    apiKey: 'AIzaSyAetLlBQcyS5WlAmbg3fvEBRhgDQw11uPI',
+    appId: '1:234567568334:web:15af2b2b1a3ef411eaf99f',
+    messagingSenderId: '234567568334',
+    projectId: 'nk-app-693ab',
+    authDomain: 'nk-app-693ab.firebaseapp.com',
+    storageBucket: 'nk-app-693ab.appspot.com',
+    measurementId: 'G-KTTQS17CKK',
   );
+
 }
