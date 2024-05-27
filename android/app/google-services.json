@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "946822283011",
-    "project_id": "whatsapp-clone-dcefa",
-    "storage_bucket": "whatsapp-clone-dcefa.appspot.com"
+    "project_number": "832916460703",
+    "project_id": "whatsapp-clone-a4792",
+    "storage_bucket": "whatsapp-clone-a4792.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:946822283011:android:67c89ba596935399bab336",
+        "mobilesdk_app_id": "1:832916460703:android:750c00027e5c2fe0dabeaa",
         "android_client_info": {
           "package_name": "com.nkapp.whatsapp_clone_firebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCvUYVCPjuXoQJQCavxqvBBEOXToAjK0LM"
+          "current_key": "AIzaSyAXRnoWCGNuH9Aesv5NPf3M9E9OQ68WhH4"
         }
       ],
       "services": {

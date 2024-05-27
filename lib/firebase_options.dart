@@ -47,31 +47,31 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAetLlBQcyS5WlAmbg3fvEBRhgDQw11uPI',
-    appId: '1:234567568334:web:fe91138ff613aff7eaf99f',
-    messagingSenderId: '234567568334',
-    projectId: 'nk-app-693ab',
-    authDomain: 'nk-app-693ab.firebaseapp.com',
-    storageBucket: 'nk-app-693ab.appspot.com',
-    measurementId: 'G-8K9KN96T4B',
+    apiKey: 'AIzaSyCdSemlgTrScWfBf7lj1XMfReVS6OQ_qOo',
+    appId: '1:832916460703:web:c4326f0fa0caaec1dabeaa',
+    messagingSenderId: '832916460703',
+    projectId: 'whatsapp-clone-a4792',
+    authDomain: 'whatsapp-clone-a4792.firebaseapp.com',
+    storageBucket: 'whatsapp-clone-a4792.appspot.com',
+    measurementId: 'G-TSJVVQSGEH',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDtjHjSUg2pDwHYGnzuQ1jQsIAAi1ZAI0Y',
-    appId: '1:234567568334:android:c65c673f29c6e7a3eaf99f',
-    messagingSenderId: '234567568334',
-    projectId: 'nk-app-693ab',
-    storageBucket: 'nk-app-693ab.appspot.com',
+    apiKey: 'AIzaSyAXRnoWCGNuH9Aesv5NPf3M9E9OQ68WhH4',
+    appId: '1:832916460703:android:750c00027e5c2fe0dabeaa',
+    messagingSenderId: '832916460703',
+    projectId: 'whatsapp-clone-a4792',
+    storageBucket: 'whatsapp-clone-a4792.appspot.com',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAetLlBQcyS5WlAmbg3fvEBRhgDQw11uPI',
-    appId: '1:234567568334:web:15af2b2b1a3ef411eaf99f',
-    messagingSenderId: '234567568334',
-    projectId: 'nk-app-693ab',
-    authDomain: 'nk-app-693ab.firebaseapp.com',
-    storageBucket: 'nk-app-693ab.appspot.com',
-    measurementId: 'G-KTTQS17CKK',
+    apiKey: 'AIzaSyCdSemlgTrScWfBf7lj1XMfReVS6OQ_qOo',
+    appId: '1:832916460703:web:bdba023e0970dc48dabeaa',
+    messagingSenderId: '832916460703',
+    projectId: 'whatsapp-clone-a4792',
+    authDomain: 'whatsapp-clone-a4792.firebaseapp.com',
+    storageBucket: 'whatsapp-clone-a4792.appspot.com',
+    measurementId: 'G-86R3V89M36',
   );
 
 }
