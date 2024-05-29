@@ -37,8 +37,9 @@ class AuthRepository {
   void signInWithPhone(
       {required BuildContext context, required String phoneNumber}) async {
     try {
+      print("Phone Number : $phoneNumber");
       await auth.verifyPhoneNumber(
-        phoneNumber: phoneNumber,
+        phoneNumber: "+$phoneNumber",
         verificationCompleted: (phoneAuthCredential) async {
           await auth.signInWithCredential(phoneAuthCredential);
         },
@@ -88,7 +89,7 @@ class AuthRepository {
       if( profilePic != null){
          photoURL = await ref.read(commonFirebaseStorageRepositoryProvider).storeFileToFirebase('profilePic/$uid', profilePic);
       }
-      var user = UserModel(name: name, uid: uid, profilePic: photoURL, phoneNumber: auth.currentUser!.uid, isOnline: true, groupId: []);
+      var user = UserModel(name: name, uid: uid, profilePic: photoURL, phoneNumber: auth.currentUser!.phoneNumber!, isOnline: true, groupId: []);
       await firestore.collection('users').doc(uid).set(user.toJson());
       Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const MobileLayoutScreen(),), (route) => false,);
 
@@ -96,5 +97,19 @@ class AuthRepository {
       showSnackBar(context: context, content: e.message ?? 'Error occured');
       print(e);
     }
+  }
+
+  Stream<UserModel> userData(String userId) {
+    return firestore.collection('users').doc(userId).snapshots().map(
+          (event) => UserModel.fromJson(
+        event.data()!,
+      ),
+    );
+  }
+
+  void setUserState(bool isOnline) async {
+    await firestore.collection('users').doc(auth.currentUser!.uid).update({
+      'isOnline': isOnline,
+    });
   }
 }
